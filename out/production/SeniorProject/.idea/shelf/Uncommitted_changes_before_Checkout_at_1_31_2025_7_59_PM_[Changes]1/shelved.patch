@@ -1,0 +1,81 @@
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_X\" default=\"true\" project-jdk-name=\"openjdk-19\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/out\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision 2ae69e893ee397f27b65ba6d67c8d021298388b2)
++++ b/.idea/misc.xml	(date 1738281829900)
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" default="true" project-jdk-name="openjdk-19" project-jdk-type="JavaSDK">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_21_PREVIEW" project-jdk-name="21" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/out" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/java/test.java
+===================================================================
+diff --git a/.idea/java/test.java b/.idea/java/test.java
+deleted file mode 100644
+--- a/.idea/java/test.java	(revision 2ae69e893ee397f27b65ba6d67c8d021298388b2)
++++ /dev/null	(revision 2ae69e893ee397f27b65ba6d67c8d021298388b2)
+@@ -1,5 +0,0 @@
+-class test{
+-    public static void main(String[] args) {
+-        System.out.println("hello world");
+-    }
+-}
+\ No newline at end of file
+Index: test2.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/test2.java b/test2.java
+deleted file mode 100644
+--- a/test2.java	(revision 2ae69e893ee397f27b65ba6d67c8d021298388b2)
++++ /dev/null	(revision 2ae69e893ee397f27b65ba6d67c8d021298388b2)
+@@ -1,5 +0,0 @@
+-public class test2 {
+-    public static void main(String[] args) {
+-        System.out.println("hello world ");
+-    }
+-}
+Index: .idea/SeniorProject.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"JAVA_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\" inherit-compiler-output=\"true\">\r\n    <exclude-output />\r\n    <content url=\"file://$MODULE_DIR$\" />\r\n    <orderEntry type=\"inheritedJdk\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/SeniorProject.iml b/.idea/SeniorProject.iml
+--- a/.idea/SeniorProject.iml	(revision 2ae69e893ee397f27b65ba6d67c8d021298388b2)
++++ b/.idea/SeniorProject.iml	(date 1738281788509)
+@@ -2,7 +2,9 @@
+ <module type="JAVA_MODULE" version="4">
+   <component name="NewModuleRootManager" inherit-compiler-output="true">
+     <exclude-output />
+-    <content url="file://$MODULE_DIR$" />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
++    </content>
+     <orderEntry type="inheritedJdk" />
+     <orderEntry type="sourceFolder" forTests="false" />
+   </component>
+Index: cool.java
+===================================================================
+diff --git a/cool.java b/cool.java
+new file mode 100644
+--- /dev/null	(date 1738282146002)
++++ b/cool.java	(date 1738282146002)
+@@ -0,0 +1,6 @@
++public class cool {
++
++    public static void main(String[] args) {
++        System.out.println("hello world");
++    }
++}
