@@ -1,0 +1,11 @@
+body {
+    font-family: Arial, system-ui;
+    text-align: center;
+}
+button {
+    padding: 10px;
+    margin: 10px;
+    background: blue;
+    color: white;
+    border: none;
+}
