@@ -1,0 +1,5 @@
+#Dependencies
+
+flask
+sqlite3
+matplotlib
