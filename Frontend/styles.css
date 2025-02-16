@@ -1,17 +1,5 @@
 body {
-    font-family: Arial, system-ui;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
     text-align: center;
-}
-header {
-    background-color: #222;
-    color: white;
-    padding: 20px;
-    font-size: 24px;
-}
-button {
-    padding: 10px;
-    margin: 10px;
-    background: blue;
-    color: white;
-    border: none;
 }
