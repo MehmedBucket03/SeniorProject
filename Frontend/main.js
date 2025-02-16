@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     console.log("🚀 Algomatics Frontend Loaded!");
         document.getElementById("plotButton").onclick = function() {
-            document.getElementById("Input Equation").innerText = document.getElementById("Display Equation").value
+            let equation = document.getElementById("Input Equation").value;
+            document.getElementById("Display Equation").innerText = "equationDisplay" + equation;
         };
-    });
+});
