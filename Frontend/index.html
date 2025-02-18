@@ -1,11 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Algomatics</title>
+    <meta charset="UTF-8">
+    <meta name="view" content="width=device-width, initial-scale=1">
+    <title>AlgoMatics</title>
+    <link rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<h1>Algomatics: Algorithm Visualizer</h1>
-<script src="scripts/main.js"></script>
+<header>
+    <h1>AlgoMatics</h1>
+    <p>Interactive Visualizations of Mathematics & Algorithms</p>
+    <h1>Algomatics: Algorithm Visualizer</h1>
+    <script src="scripts/main.js"></script>
+</header>
+<main>
+    <div class="sections">
+        <div class="visual">
+            <h2>Graph Algorithms & Equations</h2>
+            <input type="text" id="InputEquation" placeholder="Any equation or function">
+            <button id="plotButton">Plots Function</button>
+            <p id="DisplayEquation">Shows Equation On Graph</p>
+        </div>
+        <button onclick="navigateTo('sorting.html')">Sorting Algorithms</button>
+        <button onclick="navigateTo('linkedlist.html')">Linked Lists</button>
+        <button onclick="navigateTo('recursion.html')">Recursion</button>
+        <button onclick="navigateTo('binarysearchtree.html')">Binary Search Tree</button>
+    </div>
+</main>
 </body>
 </html>
